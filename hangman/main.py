@@ -3,7 +3,7 @@ import re
 import random
 
 # Getting the answer.
-pool_file = open("hangman-sample-answer-pool.txt")
+pool_file = open("hangman/hangman-sample-answer-pool.txt")
 
 pool_answers = []
 
