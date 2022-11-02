@@ -1,0 +1,14 @@
+p
+{
+    color: blue;
+}
+
+.header-background /* creates a custom class; class ="header-background" */
+{
+    background-color: black;
+    color: white;
+}
+#subheader-foreground /* id="subheader-foreground" */
+{
+    color: red;
+}

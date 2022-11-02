@@ -1,14 +1,23 @@
 <html>
     <head>
+        <link href="style.css" rel="stylesheet" />
+        <script src="script.js" type="text/javascript"></script>
+        
         <title>Home Page</title>
     </head>
 
     <body>
+        <div>
+            <span>You clicked the button <span id ="click_counter">0</span> times.</span>
+            <span>
+                <button id="click_button">Click me!</button>
+            </span>
+        </div>
         <p>Hello World</p>
 
-        <h1>Header 1</h1>
+        <h1 class="header-background">Header 1</h1> <!--this is how to use the custom class-->
 
-        <h2>Header 2</h2>
+        <h2 id="subheader-foreground">Header 2</h2>
 
         <!--inside <a> goes href to add link and target blank to go into a new tab when you click link-->
         <a href="https://www.google.com/" target ="_blank">Visit Google Here!</a>
